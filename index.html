@@ -1,30 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-
-<script>
-window.redirectURL = "https://radardosucesso.com.br/pvback-perfect97/";
-
-function exitStopper() {
-  if (window.redirectURL) {
-    window.location.href = window.redirectURL;
-  }
-}
-
-window.addEventListener('blur', exitStopper);
-document.body.addEventListener("mouseleave", function(e) {
-  if (e.clientY <= 0) {
-    exitStopper();
-  }
-}, false);
-
-window.addEventListener('beforeunload', exitStopper);
-window.addEventListener('pagehide', exitStopper);
-
-window.addEventListener('popstate', function() {
-  exitStopper();
-});
-</script>
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -159,6 +135,15 @@ src="https://www.facebook.com/tr?id=853072092791218&ev=PageView&noscript=1"
             <!-- IMAGEN DA Headline -->
  <img class="img-fluid" src="./assets/img/1.png">
 <p></p>
+
+<script>
+    window.addEventListener('beforeunload', function(event) {
+        // Este código será executado quando o usuário tentar sair da página
+        // Você pode substituir a URL abaixo pela página para onde deseja redirecioná-lo
+        window.location.href = 'https://www.radardosucesso.com.br/pvback-perfect97/';
+    });
+</script>
+            
             <!--============================================================ CÓDIGO DA VSL ==========================================================================================-->
 
             <div id="vid_65cad7ef119d99000832c6f5" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_65cad7ef119d99000832c6f5" src="https://images.converteai.net/a74b87d4-c40b-40d0-90db-c7f5485873a8/players/65cad7ef119d99000832c6f5/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_65cad7ef119d99000832c6f5" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_65cad7ef119d99000832c6f5">var s=document.createElement("script");s.src="https://scripts.converteai.net/a74b87d4-c40b-40d0-90db-c7f5485873a8/players/65cad7ef119d99000832c6f5/player.js",s.async=!0,document.head.appendChild(s);</script>
