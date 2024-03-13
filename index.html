@@ -137,11 +137,13 @@ src="https://www.facebook.com/tr?id=853072092791218&ev=PageView&noscript=1"
 <p></p>
 
 <script>
-    window.addEventListener('beforeunload', function(event) {
-        // Este código será executado quando o usuário tentar sair da página
-        // Você pode substituir a URL abaixo pela página para onde deseja redirecioná-lo
+    // Função para redirecionar o usuário quando ele tentar sair da página
+    function redirectToPage() {
         window.location.href = 'https://www.radardosucesso.com.br/pvback-perfect97/';
-    });
+    }
+
+    // Adiciona um ouvinte de evento para detectar quando o usuário está prestes a sair da página
+    window.addEventListener('beforeunload', redirectToPage);
 </script>
             
             <!--============================================================ CÓDIGO DA VSL ==========================================================================================-->
